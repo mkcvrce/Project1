@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill__c</fullName>
+    <externalId>false</externalId>
+    <label>Skill</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Technology__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Devops</fullName>
+                <default>false</default>
+                <label>Devops</label>
+            </value>
+            <value>
+                <fullName>Java</fullName>
+                <default>false</default>
+                <label>Java</label>
+            </value>
+            <value>
+                <fullName>AWS</fullName>
+                <default>false</default>
+                <label>AWS</label>
+            </value>
+            <value>
+                <fullName>Azure</fullName>
+                <default>false</default>
+                <label>Azure</label>
+            </value>
+            <value>
+                <fullName>C++</fullName>
+                <default>false</default>
+                <label>C++</label>
+            </value>
+            <value>
+                <fullName>Machine Learning</fullName>
+                <default>false</default>
+                <label>Machine Learning</label>
+            </value>
+            <value>
+                <fullName>Data Intuition</fullName>
+                <default>false</default>
+                <label>Data Intuition</label>
+            </value>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>Lightening aura component</fullName>
+                <default>false</default>
+                <label>Lightening aura component</label>
+            </value>
+            <value>
+                <fullName>API Autmation &amp; Testing</fullName>
+                <default>false</default>
+                <label>API Autmation &amp; Testing</label>
+            </value>
+            <value>
+                <fullName>IP Networking</fullName>
+                <default>false</default>
+                <label>IP Networking</label>
+            </value>
+            <value>
+                <fullName>Hardware Interfacing</fullName>
+                <default>false</default>
+                <label>Hardware Interfacing</label>
+            </value>
+            <value>
+                <fullName>Data Structure</fullName>
+                <default>false</default>
+                <label>Data Structure</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cloud computing</controllingFieldValue>
+            <valueName>Devops</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud computing</controllingFieldValue>
+            <valueName>AWS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud computing</controllingFieldValue>
+            <valueName>Azure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Apex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce</controllingFieldValue>
+            <valueName>Lightening aura component</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Science</controllingFieldValue>
+            <valueName>Java</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Science</controllingFieldValue>
+            <valueName>Machine Learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Science</controllingFieldValue>
+            <valueName>Data Intuition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet of things</controllingFieldValue>
+            <valueName>API Autmation &amp; Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet of things</controllingFieldValue>
+            <valueName>IP Networking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet of things</controllingFieldValue>
+            <valueName>Hardware Interfacing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blockchain</controllingFieldValue>
+            <valueName>C++</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
