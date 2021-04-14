@@ -8,6 +8,7 @@ public class ContactSearch {
 		if(con.Level__c == 'Tertiary'){
 	
 			con.LastName = 'gupta';
+			System.debug('Hello Manish');
 			
 			 }update con;
 		} 
